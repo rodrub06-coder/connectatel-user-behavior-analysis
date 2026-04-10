@@ -1,74 +1,74 @@
 📊 ConnectaTel Customer Analysis
 🚀 Overview
 
-Este proyecto realiza un Análisis Exploratorio de Datos (EDA) sobre el comportamiento de usuarios de ConnectaTel, con el objetivo de identificar patrones de uso, segmentar clientes y generar insights accionables para negocio.
+This project performs an Exploratory Data Analysis (EDA) on ConnectaTel users to identify usage patterns, segment customers, and generate actionable business insights.
 
-Se analizan variables clave como edad, número de mensajes, llamadas y minutos de uso, permitiendo entender cómo interactúan los usuarios con el servicio.
+Key variables such as age, number of messages, calls, and call duration are analyzed to better understand user behavior.
 
-🎯 Objetivos
-Limpiar y validar la calidad de los datos
-Analizar el comportamiento de uso de los clientes
-Segmentar usuarios por edad y nivel de actividad
-Detectar patrones de consumo y outliers
-Generar recomendaciones estratégicas para el negocio
+🎯 Objectives
+Clean and validate data quality
+Analyze customer usage behavior
+Segment users by age and activity level
+Identify consumption patterns and outliers
+Provide strategic business recommendations
 🧹 Data Cleaning
 
-Durante el análisis se identificaron y corrigieron problemas como:
+During the analysis, several data quality issues were identified and addressed:
 
-Valores inválidos (sentinels como -999 y "?")
-Fechas fuera de rango (años futuros)
-Valores nulos
-Datos estructuralmente faltantes
+Invalid values (sentinels such as -999 and "?")
+Out-of-range dates (future years)
+Missing values
+Structurally missing data
 
-Esto permitió trabajar con un dataset confiable para el análisis.
+These steps ensured a reliable dataset for further analysis.
 
-📊 Análisis Exploratorio
+📊 Exploratory Data Analysis
 
-Se realizaron:
+The analysis included:
 
-Estadísticas descriptivas
-Distribuciones (histogramas)
-Boxplots para detección de outliers
-Análisis por tipo de usuario
-👥 Segmentación de Clientes
-🔹 Por Edad
-Joven: < 30 años
-Adulto: 30–59 años
-Adulto Mayor: 60+ años
+Descriptive statistics
+Distribution analysis (histograms)
+Outlier detection (boxplots)
+User behavior analysis
+👥 Customer Segmentation
+🔹 By Age
+Young: < 30 years
+Adult: 30–59 years
+Senior: 60+ years
 
-👉 El segmento adulto representa el grupo más activo.
+👉 The adult segment represents the most active user group.
 
-🔹 Por Nivel de Uso
-Bajo uso: < 5 interacciones
-Uso medio: 5–9
-Alto uso: ≥ 10
+🔹 By Usage Level
+Low usage: < 5 interactions
+Medium usage: 5–9
+High usage: ≥ 10
 
-👉 Predomina el uso medio, pero el alto uso genera mayor valor.
+👉 Most users fall into the medium usage category, but high-usage users generate greater value.
 
-🔍 Hallazgos Clave
-La mayoría de los usuarios presenta un uso moderado del servicio
-Existen usuarios intensivos (heavy users) con alto consumo de minutos
-Los outliers representan clientes valiosos, no errores
-No hay una relación fuerte entre edad y tipo de plan
-💡 Recomendaciones
-🎯 Fidelizar usuarios de alto consumo (especialmente premium)
-📈 Diseñar estrategias de upselling para usuarios de uso medio
-📣 Implementar campañas segmentadas por edad
-💰 Crear planes específicos para usuarios intensivos
-🛠️ Tecnologías utilizadas
+🔍 Key Insights
+Most users show moderate usage behavior
+A group of heavy users with high call minutes was identified
+Outliers represent high-value customers, not errors
+No strong relationship between age and plan type was observed
+💡 Recommendations
+🎯 Improve retention strategies for high-usage users (especially premium)
+📈 Develop upselling strategies for medium-usage users
+📣 Implement age-targeted marketing campaigns
+💰 Design tailored plans for heavy users
+🛠️ Technologies Used
 Python 🐍
 Pandas
 NumPy
 Matplotlib
 Seaborn
-📁 Estructura del proyecto
+📁 Project Structure
 ├── data/
 ├── notebooks/
 ├── README.md
-📌 Conclusión
+📌 Conclusion
 
-Este análisis permite identificar oportunidades claras de negocio mediante la segmentación de clientes y el entendimiento de patrones de uso, facilitando la toma de decisiones estratégicas basadas en datos.
+This analysis highlights key business opportunities through customer segmentation and usage patterns, enabling data-driven decision-making.
 
-👨‍💻 Autor
+👨‍💻 Author
 
-Proyecto desarrollado como parte de formación en análisis de datos 📊
+Data analysis project developed as part of a data analytics learning journey 📊
